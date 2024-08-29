@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.873);
+  background-color: #333a7b;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.card{
+  border: 1px solid rgba(255, 255, 255, 0.285);
+  margin-bottom: 20px;
+  border-radius: 14px;
+}
+.adForm input{
+  border:1px solid #333a7b;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+.adForm label{
+  color: #333a7b;
+  /* font-family: fantasy; */
+}
+.adBtn{
+  background-color: #333a7b;
+  color: white;
+
+}
+.modalForm{
+  background-image: url("../modalPic.jpg");
+}
+.mhAD{
+  background-image: rgba(0, 0, 0, 0.241);
+}
+.edForm input{
+  border:1px solid #333a7b;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  /* width: 200px; */
+  text-align: center;
+}
+
+.edForm label{
+  color: #333a7b;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
